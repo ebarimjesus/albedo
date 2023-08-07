@@ -11,7 +11,7 @@ import albedo, {intentInterface} from '@albedo-link/intent'
     }
 
     function missingMandatoryOption(name) {
-        console.error(`Failed to initialize Albedo payment button. Mandatory option "${name}" is missing.`)
+        console.error(`Failed to initialize Zingy  payment button. Mandatory option "${name}" is missing.`)
     }
 
     const {network, text, amount, destination, 'asset-code': assetCode, 'asset-issuer': assetIssuer, memo, 'class-name': className, width, height} = options

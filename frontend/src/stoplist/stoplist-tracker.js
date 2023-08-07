@@ -26,7 +26,7 @@ class StoplistTracker {
             //check whether the cache is stale
             if (!this.shouldUpdate)
                 return Promise.resolve()
-            //refetch fresh stoplist from Albedo
+            //refetch fresh stoplist from Zingy 
             this.fetchPromise = fetchExplorerApi('directory/blocked-domains?limit=1000')
                 .then(data => {
                     //process data

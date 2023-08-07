@@ -1,6 +1,6 @@
 const intentErrors = {
     unhandledError: {
-        message: 'Unhandled error occurred. If this error persists, please contact Albedo support.',
+        message: 'Unhandled error occurred. If this error persists, please contact Zingy  support.',
         code: -1
     },
     externalError: {

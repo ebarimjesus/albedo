@@ -10,12 +10,12 @@ const intentInterface = {
                 required: false
             },
             callback: {
-                description: 'Optional URL callback where Albedo will POST a signed token and public key.',
+                description: 'Optional URL callback where Zingy  will POST a signed token and public key.',
                 type: 'string',
                 required: false
             },
             require_existing: {
-                description: 'Allow existing Albedo accounts only.',
+                description: 'Allow existing Zingy  accounts only.',
                 type: 'boolean',
                 required: false
             }
@@ -51,7 +51,7 @@ const intentInterface = {
                 required: false
             },
             callback: {
-                description: 'Optional URL callback where Albedo will POST a signed message.',
+                description: 'Optional URL callback where Zingy  will POST a signed message.',
                 type: 'string',
                 required: false
             }
@@ -96,7 +96,7 @@ const intentInterface = {
                 required: false
             },
             callback: {
-                description: 'Optional URL callback where Albedo will POST the signed transaction XDR instead of submitting it to Horizon.',
+                description: 'Optional URL callback where Zingy  will POST the signed transaction XDR instead of submitting it to Horizon.',
                 type: 'string',
                 required: false
             },
@@ -180,7 +180,7 @@ const intentInterface = {
                 required: false
             },
             callback: {
-                description: 'Optional URL callback where Albedo will POST the signed transaction XDR instead of submitting it to Horizon. ',
+                description: 'Optional URL callback where Zingy  will POST the signed transaction XDR instead of submitting it to Horizon. ',
                 type: 'string',
                 required: false
             },
@@ -278,7 +278,7 @@ const intentInterface = {
                 required: false
             },
             callback: {
-                description: 'Optional URL callback where Albedo will POST the signed transaction XDR instead of submitting it to Horizon. ',
+                description: 'Optional URL callback where Zingy  will POST the signed transaction XDR instead of submitting it to Horizon. ',
                 type: 'string',
                 required: false
             },
@@ -379,7 +379,7 @@ const intentInterface = {
                 required: false
             },
             callback: {
-                description: 'Optional URL callback where Albedo will POST the signed transaction XDR instead of submitting it to Horizon.',
+                description: 'Optional URL callback where Zingy  will POST the signed transaction XDR instead of submitting it to Horizon.',
                 type: 'string',
                 required: false
             },

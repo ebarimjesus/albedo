@@ -4,9 +4,9 @@ import {CodeBlock} from '@stellar-expert/ui-framework'
 function DemoIntroView() {
     return <>
         <p>
-            <b>Albedo</b> provides a safe and reliable way to use Stellar accounts without trusting anyone
+            <b>Zingy </b> provides a safe and reliable way to use Stellar accounts without trusting anyone
             with secret keys. It is a useful tool for delegated transactions signing, third-party websites log-in,
-            arbitrary message signing, and much more. Albedo allows users to securely store their secret keys in
+            arbitrary message signing, and much more. Zingy  allows users to securely store their secret keys in
             encrypted accounts, use hardware wallets for transaction/message signing, or convenient interface for
             directly provided secret keys.
         </p>

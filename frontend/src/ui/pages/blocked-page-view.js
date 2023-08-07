@@ -8,7 +8,7 @@ export default function BlockedPageView() {
         <div className="warning-block">
             <i className="icon-warning-hexagon color-warning"/> The domain <code>{from.toLowerCase()}</code> has been reported earlier
             for a fraudulent activity.
-            Albedo automatically blocks such websites to protect our users from malicious actions.
+            Zingy  automatically blocks such websites to protect our users from malicious actions.
             <div className="space text-small">
                 <i className="icon-warning-hexagon color-warning"/> Please note: There is no stacking on Stellar.
                 Any website promoting "stacking competitions" will steal your funds.

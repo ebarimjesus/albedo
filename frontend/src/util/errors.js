@@ -40,7 +40,7 @@ class StandardErrors {
     unhandledError(error) {
         console.error(error)
         return buildError({
-            message: 'Unhandled error occurred. If this error persists, please contact Albedo support.',
+            message: 'Unhandled error occurred. If this error persists, please contact Zingy  support.',
             code: -1
         })
     }

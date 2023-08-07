@@ -9,7 +9,7 @@ function getConfirmationAccountName(account, alreadySigned) {
     const confirmation = alreadySigned ? 'Already signed by ' : 'Confirm using '
     if (account?.isEphemeral) return confirmation + `account ${shortenString(account.publicKey, 12)}`
     if (account) return confirmation + account.shortDisplayName
-    return confirmation + 'Albedo account'
+    return confirmation + 'Zingy  account'
 }
 
 function PendingStatus({children}) {

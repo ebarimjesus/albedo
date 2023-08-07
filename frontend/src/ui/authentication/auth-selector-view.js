@@ -75,7 +75,7 @@ function AuthSelectorView() {
 
     dropdownOptions.push({
         value: 'signup',
-        title: allAccounts.length ? 'Add one more account' : 'Create Albedo account'
+        title: allAccounts.length ? 'Add one more account' : 'Create Zingy  account'
     })
 
     if (!directKeyInput && !requiresExistingAlbedoAccount) {
@@ -100,11 +100,11 @@ function AuthSelectorView() {
         </> : <>
             {!!requestedPubkey && !selectedAccount && <div className="space">
                 The application requested specific key (<AccountAddress account={requestedPubkey}/>).
-                Either <AuthActionLink action="signup">add another Albedo account</AuthActionLink> or
+                Either <AuthActionLink action="signup">add another Zingy  account</AuthActionLink> or
                 provide the requested secret key <AuthActionLink action="direct-input">directly</AuthActionLink>.
             </div>}
             {!selectedAccount && <div className="space">
-                <AuthActionLink action="signup">Create new Albedo account</AuthActionLink> to proceed.
+                <AuthActionLink action="signup">Create new Zingy  account</AuthActionLink> to proceed.
             </div>}
             <div className="space"/>
         </>}

@@ -78,7 +78,7 @@ export default function AccountImportView({onSuccess}) {
                 be <code>albedo.link</code>) and SSL validity(a small lock icon on the left of the address bar).
             </p>
             <p>
-                Use this tool to import keys from any Stellar wallet or transfer your Albedo account to another
+                Use this tool to import keys from any Stellar wallet or transfer your Zingy  account to another
                 browser/device.
             </p>
             <p>Copy-paste your key below:</p>
@@ -91,7 +91,7 @@ export default function AccountImportView({onSuccess}) {
             </div>
             <div className="text-tiny dimmed space">
                 Supported formats:<br/>
-                - 24-word Albedo account passphrase backup<br/>
+                - 24-word Zingy  account passphrase backup<br/>
                 - Stellar account secret key (starts with "S…")
             </div>
         </div>

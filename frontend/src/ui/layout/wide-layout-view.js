@@ -16,7 +16,7 @@ function WideLayoutView({children}) {
         <div className="container wide dimmed text-center text-small">
             <div className="space"/>
             <div className="copyright">
-                {new Date().getFullYear()}&nbsp;©&nbsp;Albedo <span className="dimmed">v{appVersion}</span>
+                {new Date().getFullYear()}&nbsp;©&nbsp;Zingy  <span className="dimmed">v{appVersion}</span>
             </div>
             <div style={{paddingBottom: '1em'}}>
                 <a href="mailto:info@stellar.expert" target="_blank" className="dimmed">

@@ -23,7 +23,7 @@ export default function SignupView({secret, skipOnboarding, skipSecretBackup}) {
 
     switch (status) {
         case 'onboarding':
-            return <SoloLayoutView title="Welcome to Albedo">
+            return <SoloLayoutView title="Welcome to Zingy ">
                 <OnBoardingNotesStepView onSuccess={() => updateCurrentStatus('password')}/>
             </SoloLayoutView>
         case 'password':

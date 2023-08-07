@@ -49,18 +49,18 @@ export default function LoginPageView() {
 
     if (!accountSelectorOptions.length)
         return <SoloLayoutView title="Log In">
-            No stored accounts available. Looks like you are using Albedo for the first time on this device.
+            No stored accounts available. Looks like you are using Zingy  for the first time on this device.
             <div className="row">
                 <div className="column column-50 space">
                     <Button block href="/signup">Create new account</Button>
                     <div className="dimmed text-tiny text-center">
-                        Create new empty account and start using Albedo right away.
+                        Create new empty account and start using Zingy  right away.
                     </div>
                 </div>
                 <div className="column column-50 space">
                     <Button block href="/import">Import existing</Button>
                     <div className="dimmed text-tiny text-center">
-                        Use Albedo paper key or secret key from another Stellar wallet.
+                        Use Zingy  paper key or secret key from another Stellar wallet.
                     </div>
                 </div>
             </div>

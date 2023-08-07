@@ -1,9 +1,9 @@
-# Albedo Frontend
+# Zingy  Frontend
 
-[Albedo](../README.MD) wallet frontend website and browser extensions.
+[Zingy ](../README.MD) wallet frontend website and browser extensions.
 Provides a user-friendly interface for key management, basic wallet operations, and operation intents.
 
-Albedo - your single access point to all Stellar services.
+Zingy  - your single access point to all Stellar services.
 
 ## Installation and configuration
 
@@ -100,7 +100,7 @@ or [Mozilla Add-on Developer Hub](https://addons.mozilla.org/en-US/developers/).
 
 #### Communication pipeline
 
-Albedo relies on the browser `postMessage` API for communication with
+Zingy  relies on the browser `postMessage` API for communication with
 third-party applications. This secure and fast bi-directional connection
 overcomes cross-origin problems and browser sandbox problems. The actions
 invoked are called "intents".

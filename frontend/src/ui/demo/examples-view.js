@@ -16,10 +16,10 @@ function ExamplesView() {
             confirmation page.
         </ExampleView>
         <ExampleView title="Transaction signing process" img="albedo-tx-signing-account.gif">
-            Albedo exposes a simple interface for basic actions like payment, tokens purchase, trustline creation,
+            Zingy  exposes a simple interface for basic actions like payment, tokens purchase, trustline creation,
             as well as arbitrary transactions signing.
         </ExampleView>
-        <ExampleView title="Message signing with Albedo account" img="albedo-message-signing-account.gif">
+        <ExampleView title="Message signing with Zingy  account" img="albedo-message-signing-account.gif">
             Arbitrary message signing can be useful for a wide range of tasks, like simple OAuth-like
             authentication for applications, delegated actions approval/confirmation, notary services, identity
             verification, and many other applications based on public-key cryptography.
@@ -33,7 +33,7 @@ function ExamplesView() {
         </ExampleView>
         <ExampleView title="Implicit flow" img="albedo-implicit-mode.gif">
             One of the most frustrating issues with delegated signing is the need to follow the full cycle of redirects
-            and provide credentials while executing the repeated tasks (for example, trading on DEX). Albedo introduces
+            and provide credentials while executing the repeated tasks (for example, trading on DEX). Zingy  introduces
             the concept of client sessions which allows an app to request specific permissions from a user and execute
             subsequent requests without asking a confirmation each time. This convenient behavior provides a balance
             between security and usability.

@@ -1,5 +1,5 @@
 /**
- * Albedo API external interface implementation.
+ * Zingy  API external interface implementation.
  */
 export interface AlbedoIntent {
     /**
@@ -63,11 +63,11 @@ export interface PublicKeyIntentParams {
     */
     token?: string,
     /**
-    * Optional URL callback where Albedo will POST a signed token and public key.
+    * Optional URL callback where Zingy  will POST a signed token and public key.
     */
     callback?: string,
     /**
-    * Allow existing Albedo accounts only.
+    * Allow existing Zingy  accounts only.
     */
     require_existing?: boolean
 }
@@ -97,7 +97,7 @@ export interface SignMessageIntentParams {
     */
     pubkey?: string,
     /**
-    * Optional URL callback where Albedo will POST a signed message.
+    * Optional URL callback where Zingy  will POST a signed message.
     */
     callback?: string
 }
@@ -135,7 +135,7 @@ export interface TxIntentParams {
     */
     network?: string,
     /**
-    * Optional URL callback where Albedo will POST the signed transaction XDR instead of submitting it to Horizon.
+    * Optional URL callback where Zingy  will POST the signed transaction XDR instead of submitting it to Horizon.
     */
     callback?: string,
     /**
@@ -205,7 +205,7 @@ export interface PayIntentParams {
     */
     network?: string,
     /**
-    * Optional URL callback where Albedo will POST the signed transaction XDR instead of submitting it to Horizon. 
+    * Optional URL callback where Zingy  will POST the signed transaction XDR instead of submitting it to Horizon. 
     */
     callback?: string,
     /**
@@ -291,7 +291,7 @@ export interface TrustIntentParams {
     */
     network?: string,
     /**
-    * Optional URL callback where Albedo will POST the signed transaction XDR instead of submitting it to Horizon. 
+    * Optional URL callback where Zingy  will POST the signed transaction XDR instead of submitting it to Horizon. 
     */
     callback?: string,
     /**
@@ -377,7 +377,7 @@ export interface ExchangeIntentParams {
     */
     network?: string,
     /**
-    * Optional URL callback where Albedo will POST the signed transaction XDR instead of submitting it to Horizon.
+    * Optional URL callback where Zingy  will POST the signed transaction XDR instead of submitting it to Horizon.
     */
     callback?: string,
     /**

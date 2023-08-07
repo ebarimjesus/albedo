@@ -51,7 +51,7 @@ function generateAlbedoInterface() {
     ${methodName}: (params: ${generateName(intent, 'IntentParams')}) => Promise<${generateName(intent, 'IntentResult')}>`
         })
     return `/**
- * Albedo API external interface implementation.
+ * Zingy  API external interface implementation.
  */
 export interface AlbedoIntent {${methods.join(',')},
     /**

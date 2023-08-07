@@ -133,7 +133,7 @@ function ensureNotificationsEnabled() {
     return webPushNotificationsAdapter.ensurePushNotifications()
         .then(subscribed => {
             if (!subscribed) {
-                alert('You need to allow Albedo push notifications on this device to be able to use WalletConnect')
+                alert('You need to allow Zingy  push notifications on this device to be able to use WalletConnect')
                 return false
             }
             return true

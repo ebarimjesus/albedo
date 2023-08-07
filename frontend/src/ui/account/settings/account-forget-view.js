@@ -25,9 +25,9 @@ export default function AccountForgetView({credentials}) {
     return <>
         <h3>Forget account</h3>
         <p className="dimmed text-small">
-            If you want to remove account {account.displayName} from Albedo, please make sure
+            If you want to remove account {account.displayName} from Zingy Wallet, please make sure
             that you have the backup of your recovery phrase or secret key somewhere because you will no longer have
-            access to this account from Albedo on your current device once you delete it.
+            access to this account from Zingy Wallet on your current device once you delete it.
         </p>
         <div className="row">
             <div className="column column-50 column-offset-25">
@@ -35,7 +35,7 @@ export default function AccountForgetView({credentials}) {
             </div>
         </div>
         <p className="dimmed text-small micro-space">
-            Please note, removing the account from Albedo will not affect your Stellar account on the ledger.
+            Please note, removing the account from Zingy Wallet will not affect your Stellar account on the ledger.
             You can use <a href="https://stellar.expert/demolisher/public" target="_blank">StellarExpert Demolisher
             tool</a> to delete Stellar account completely and reclaim all reserved funds.
         </p>

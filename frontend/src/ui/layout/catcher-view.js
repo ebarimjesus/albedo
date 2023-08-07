@@ -44,7 +44,7 @@ ${navigator.userAgent}`
                 </div>
                 <div className="space dimmed text-small">
                     If this error persists please{' '}
-                    <a href={'mailto:support@stellar.expert?subject=Albedo%20exception&body=' + encodeURIComponent(compiledText)}
+                    <a href={'mailto:support@stellar.expert?subject=Zingy %20exception&body=' + encodeURIComponent(compiledText)}
                        target="_blank">contact our support</a>.
                 </div>
             </div>

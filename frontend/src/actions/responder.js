@@ -113,7 +113,7 @@ async function getInteractiveExecutionContext(actionContext) {
     const {selectedAccount} = actionContext
     if (!selectedAccount)
         throw new Error(`Account not selected.`)
-    //Albedo account
+    //Zingy  account
     const executionContext = ActionAuthenticationContext.forAccount(selectedAccount)
     if (selectedAccount.isStoredAccount) {
         executionContext.credentials = await authorizationService.requestAuthorization(selectedAccount)

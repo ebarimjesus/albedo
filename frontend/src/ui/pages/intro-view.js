@@ -25,13 +25,13 @@ function IntroView() {
             <div>
                 <h2>Single access point to Stellar universe</h2>
                 <div className="double-space">
-                    Albedo allows other Stellar apps to request transaction signing or
+                    Zingy  allows other Stellar apps to request transaction signing or
                     identity verification without ever exposing your secret key
                 </div>
                 <div className="double-space">
                     {loggedIn ?
                         <Button outline href="/account">Manage your account</Button> :
-                        <Button outline href="/signup">Create Albedo account</Button>}
+                        <Button outline href="/signup">Create Zingy  account</Button>}
                 </div>
             </div>
         </div>

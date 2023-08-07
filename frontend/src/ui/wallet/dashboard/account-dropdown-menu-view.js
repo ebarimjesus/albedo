@@ -92,7 +92,7 @@ export default function AccountDropdownMenuView() {
         value: 'about',
         title: <div className="dimmed dual-layout">
             <div>
-                {new Date().getFullYear()}&nbsp;©&nbsp;Albedo <span className="dimmed">v{appVersion}</span>
+                {new Date().getFullYear()}&nbsp;©&nbsp;Zingy  <span className="dimmed">v{appVersion}</span>
             </div>
             <div>&emsp;
                 <a href="mailto:info@stellar.expert" target="_blank" title="Contact us"><i className="icon-email"/></a>&emsp;

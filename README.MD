@@ -1,6 +1,6 @@
-# Albedo
+# Zingy 
 
-[**Albedo**](https://albedo.link) provides a safe and reliable way to use
+[**Zingy **](https://albedo.link) provides a safe and reliable way to use
 Stellar accounts without trusting anyone with a secret key.
 
 It works like a bridge for other applications that allows them to ask
@@ -19,7 +19,7 @@ can be implemented without any coding at all, therefore allowing instant
 copy-pasting code produced by the 
 [payment request generator](https://albedo.link/playground#payment-request).
 
-At the same time, Albedo provides a set of low-level tools for working with
+At the same time, Zingy  provides a set of low-level tools for working with
 complex multi-sig schemes, making it a perfect match for advanced Stellar-based
 applications and smart-contracts.
 
@@ -28,7 +28,7 @@ This project consists of two parts:
 - [Frontend](./frontend) interface for [albedo.link](https://albedo.link)
 website and browser extension UI – a thin wrapper which extends the
 functionality of the main website.
-- [Intent](./intent) library – a lightweight browser wrapper for Albedo API
+- [Intent](./intent) library – a lightweight browser wrapper for Zingy  API
 that provides a promise-based interface for all supported intents.
 
 For those who often use Stellar account we built browser extension – a thin
@@ -51,12 +51,12 @@ smartphones, and any other device that has modern browser installed.
 
 ## How it works
 
-The easiest way to start exploring Albedo is to play around with the demo 
+The easiest way to start exploring Zingy  is to play around with the demo 
 [playground](https://albedo.link/demo). 
 
-Albedo can be integrated on any website in three simple steps:
+Zingy  can be integrated on any website in three simple steps:
 
-1. Download and install Albedo intent NPM package:
+1. Download and install Zingy  intent NPM package:
 
    ```shell script
    npm i -S @albedo-link/intent
@@ -129,10 +129,10 @@ intents.
 4. In turn, `albedo-intent` module opens new pop-up window pointing to
 `albedo.link`. Intent parameters are transmitted via `postMessage` API once
 the pop-up is open.
-5. Albedo reads parameters and asks the user for a confirmation.
+5. Zingy  reads parameters and asks the user for a confirmation.
 6. A user chooses an account from the list of stored accounts (or adds a new
 one) and confirms the action.
-7. Albedo signs the transaction the same way any other wallet does it.
+7. Zingy  signs the transaction the same way any other wallet does it.
 8. A signed transaction in the XDR-serialized form sent back to the initiator site.
 9. The initiator website receives a signed transaction envelope and may choose
 either to submit it to the network or store somewhere in case if the tx needs
@@ -170,7 +170,7 @@ confirmations.
 **SEP-0007 flow**
 
 This callback-based flow supports [SEP-0007](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0007.md) link format.
-When Albedo is set as a default *web+stellar* link handler (or when the browser
+When Zingy  is set as a default *web+stellar* link handler (or when the browser
 extension installed), it redirects the browser to the signing interface
 instead of showing a pop-up authorization dialog.
 

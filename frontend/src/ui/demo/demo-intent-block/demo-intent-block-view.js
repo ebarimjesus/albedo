@@ -28,7 +28,7 @@ function getTabs(intent) {
         title: 'Javascript code',
         render: () => <CodeExampleInfoView>
             Fully customizable integration for online shops, payment gateways, service providers.
-            The best option for client-side JS frameworks like React or Angular. Requires Albedo intent library.
+            The best option for client-side JS frameworks like React or Angular. Requires Zingy  intent library.
         </CodeExampleInfoView>
     }]
 
@@ -51,7 +51,7 @@ function getTabs(intent) {
                 <a href="https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0007.md"
                    target="_blank">SEP0007</a>-formatted payment request link compatible with some other Stellar
                 wallets.
-                Supports a subset of Albedo features. Doesn't require Stellar SDK or Albedo intent script.
+                Supports a subset of Zingy  features. Doesn't require Stellar SDK or Zingy  intent script.
             </CodeExampleInfoView>
         })
     }

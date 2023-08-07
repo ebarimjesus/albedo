@@ -10,7 +10,7 @@ function intentError(msg) {
 /**
  * Request user's confirmation for the specified action.
  * @param {Object} params - Intent parameters.
- * @param {String} frontendUrl - URL of the Albedo frontend.
+ * @param {String} frontendUrl - URL of the Zingy  frontend.
  * @return {Promise}
  */
 export function requestIntentConfirmation(params, frontendUrl) {
@@ -42,7 +42,7 @@ export function requestIntentConfirmation(params, frontendUrl) {
 /**
  * Create/retrieve an appropriate window transport for given intent params.
  * @param {Object} params - Intent params provided by the third-party app.
- * @param {String} frontendUrl - URL of the Albedo website.
+ * @param {String} frontendUrl - URL of the Zingy  website.
  * @return {TransportHandler}
  */
 function prepareTransport(params, frontendUrl) {

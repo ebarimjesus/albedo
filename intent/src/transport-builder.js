@@ -2,7 +2,7 @@ import TransportHandler from './transport-handler'
 
 /**
  * Create explicit dialog window transport.
- * @param {String} frontendUrl - URL of the Albedo frontend.
+ * @param {String} frontendUrl - URL of the Zingy  frontend.
  * @return {TransportHandler}
  */
 function createDialogTransport(frontendUrl) {
@@ -25,7 +25,7 @@ let sharedIframeTransport = null
 
 /**
  * Create implicit transport based on hidden iframe.
- * @param {String} frontendUrl - URL of the Albedo frontend.
+ * @param {String} frontendUrl - URL of the Zingy  frontend.
  * @return {TransportHandler}
  */
 function createIframeTransport(frontendUrl) {

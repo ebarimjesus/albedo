@@ -13,7 +13,7 @@ function parseOptions(scope) {
     const {intent} = options,
         intentDescriptor = intentInterface[intent]
     if (!intentDescriptor) {
-        console.error(`Failed to initialize Albedo intent button. Unknown intent: "${intent}".`)
+        console.error(`Failed to initialize Zingy  intent button. Unknown intent: "${intent}".`)
         return null
     }
     //validate intent params
@@ -21,7 +21,7 @@ function parseOptions(scope) {
     for (const key of Object.keys(intentParams)) {
         const {required} = intentParams[key]
         if (required && !options[key]) {
-            console.error(`Failed to initialize Albedo payment button. Mandatory option "${key}" is missing.`)
+            console.error(`Failed to initialize Zingy  payment button. Mandatory option "${key}" is missing.`)
             return null
         }
     }

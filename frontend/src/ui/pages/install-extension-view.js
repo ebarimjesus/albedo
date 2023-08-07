@@ -8,7 +8,7 @@ export default function InstallExtensionView() {
     return <SoloLayoutView title="Install browser extension">
         <div>
             <p>
-                Albedo extension is a thin wrapper on top of albedo.link website. If you often use Albedo or other
+                Zingy  extension is a thin wrapper on top of albedo.link website. If you often use Zingy  or other
                 Stellar services that support web+stellar links, you might want to install this extension.
                 It has the same functionality as the main website, plus a few bonus features.
             </p>
@@ -20,12 +20,12 @@ export default function InstallExtensionView() {
                     Skip typing passwords every time to confirm the request.
                 </li>
                 <li>
-                    All Albedo to handle all web+stellar links automatically.
+                    All Zingy  to handle all web+stellar links automatically.
                 </li>
             </ul>
         </div>
         {isExtensionInstalled() && <div className="space text-small">
-            <i className="icon-ok"/> Albedo extension has been already installed in this browser.
+            <i className="icon-ok"/> Zingy  extension has been already installed in this browser.
         </div>}
         <div className="double-space">
             <Button block target="_blank" href="https://chrome.google.com/webstore/detail/kbojmmmibkfijmjgnfgfpngmmgkkpncl">

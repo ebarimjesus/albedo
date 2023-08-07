@@ -93,7 +93,7 @@ TransportHandler.prototype = {
     matchProtocolVersion(albedoProtocolVersion) {
         const versionDif = albedoProtocolVersion - this.protocolVersion
         if (versionDif === 0) return //everything is good
-        const error = `@albedo-link/intent module protocol version (${this.protocolVersion}) is incompatible with current Albedo protocol version ${albedoProtocolVersion}.`
+        const error = `@albedo-link/intent module protocol version (${this.protocolVersion}) is incompatible with current Zingy  protocol version ${albedoProtocolVersion}.`
         if (versionDif > 0) {
             console.warn(error + ' Please update @albedo-link/intent module to avoid possible connection problems.')
         } else if (versionDif < 0) {

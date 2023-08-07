@@ -18,7 +18,7 @@ export default function SoloLayoutView({title, alignTop = false, children}) {
         <div className="dimmed text-center text-small container">
             <div className="space"/>
             <div className="copyright">
-                {new Date().getUTCFullYear()}&nbsp;©&nbsp;Albedo <span className="dimmed">v{appVersion}</span>
+                {new Date().getUTCFullYear()}&nbsp;©&nbsp;Zingy  <span className="dimmed">v{appVersion}</span>
             </div>
             <div style={{paddingBottom: '1em'}}>
                 <a href="mailto:info@stellar.expert" target="_blank" className="dimmed">

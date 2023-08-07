@@ -12,11 +12,11 @@ export default function DeveloperFeaturesView() {
             Focus on what really matters for your app while saving months of work on trivial things.
         </Feature>
         <Feature title="Powerful abstraction layer" img="/img/features/feature-icon-abstraction.svg">
-            Albedo handles all low-level details (transaction building, signing, multi-sig,
+            Zingy  handles all low-level details (transaction building, signing, multi-sig,
             validation, error processing) while providing a streamlined API interface.
         </Feature>
         <Feature title="Signing multi-tool" img="/img/features/feature-icon-multitool.svg">
-            Multiple signing option – Albedo accounts, hardware wallets, direct secret
+            Multiple signing option – Zingy  accounts, hardware wallets, direct secret
             key input, SEP-0007 links. Complex logic is hidden from the caller app
             behind the unified generic interface.
         </Feature>
