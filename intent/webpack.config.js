@@ -13,7 +13,7 @@ module.exports = function () {
             path: path.join(__dirname, './lib'),
             filename: '[name].js',
             library: {
-                name: 'albedo',
+                name: 'zingy-wallet',
                 type: 'umd',
                 export: 'default'
             },
